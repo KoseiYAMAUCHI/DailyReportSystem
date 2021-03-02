@@ -37,6 +37,7 @@
                             <td>
                                 <fmt:formatDate value="${employee.updated_at}" pattern="yyyy-MM-dd HH:mm:ss" />
                             </td>
+
                         </tr>
                     </tbody>
                 </table>
