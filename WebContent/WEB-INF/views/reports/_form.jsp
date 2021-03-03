@@ -26,8 +26,7 @@
 <textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
 
-
-
+<input type="hidden" name="yoine" value="${yoine}" />
 
 <input type="hidden" name="_token" value="${_token}" />
 <button type="submit">投稿</button>

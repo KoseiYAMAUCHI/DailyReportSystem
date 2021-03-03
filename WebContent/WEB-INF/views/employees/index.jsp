@@ -14,6 +14,7 @@
                     <th>社員番号</th>
                     <th>氏名</th>
                     <th>操作</th>
+                    <th>いいね</th>
 
                 </tr>
                 <c:forEach var="employee" items="${employees}" varStatus="status">
@@ -31,6 +32,7 @@
                                 </c:otherwise>
                             </c:choose>
                         </td>
+                        <td>${yoine.yoineCount}</td>
                     </tr>
                 </c:forEach>
             </tbody>

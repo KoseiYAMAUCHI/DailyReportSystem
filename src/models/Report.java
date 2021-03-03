@@ -63,9 +63,7 @@ public class Report {
     private Timestamp updated_at;
 
 
-
-
-    public Integer getId() {
+	public Integer getId() {
         return id;
     }
 

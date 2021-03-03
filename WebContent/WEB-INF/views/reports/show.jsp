@@ -35,7 +35,10 @@
                                 <fmt:formatDate value="${report.updated_at}" pattern="yyyy-MM-dd HH:mm:ss" />
                             </td>
                         </tr>
-
+						<tr>
+							<th>いいね</th>
+							<td>${yoine.yoineCount}</td>
+						</tr>
                     </tbody>
                 </table>
 
